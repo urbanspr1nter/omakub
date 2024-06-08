@@ -66,6 +66,11 @@ gsettings set org.gnome.desktop.interface font-hinting 'full'
 # Key Remaps for Caps
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:ctrl_modifier']"
 
+# More shortcuts
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-mute "['<Shift><Control>m']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-down "['<Shift><Control>Down']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-up "['<Shift><Control>Up']"
+
 # Don't make the computer go to sleep
 gsettings set org.gnome.desktop.session idle-delay 0
 
@@ -76,3 +81,6 @@ gsettings set org.gnome.mutter center-new-windows true
 # Set the cursor size
 gsettings set gnome.desktop.interface cursor-size 32
 gsettings set com.ubuntu.user-interface.desktop cursor-size 24
+
+# Other
+gsettings set org.gnome.desktop.interface clock-show-weekday true

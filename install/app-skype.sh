@@ -1,1 +1,1 @@
-sudo snap install skype
+sudo snap install skype --classic
