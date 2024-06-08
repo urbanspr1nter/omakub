@@ -17,7 +17,7 @@
   },
   "files.trimTrailingWhitespace": true,
   "git.confirmSync": false,
-  "window.menuBarVisibility": "compact",
+  "window.menuBarVisibility": "visible",
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
   "explorer.confirmDelete": false,
