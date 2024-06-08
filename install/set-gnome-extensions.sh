@@ -84,3 +84,4 @@ gsettings set com.ubuntu.user-interface.desktop cursor-size 24
 
 # Other
 gsettings set org.gnome.desktop.interface clock-show-weekday true
+gsettings set org.gnome.desktop.interface clock-format '12h'
