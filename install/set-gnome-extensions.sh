@@ -58,3 +58,7 @@ gsettings set org.gnome.shell.extensions.space-bar.behavior smart-workspace-name
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-activate-workspace-shortcuts false
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts enable-move-to-workspace-shortcuts true
 gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
+
+# Configure Fonts
+gsettings set org.gnome.desktop.interface font-name 'SF Pro Display 12'
+gsettings set org.gnome.desktop.interface font-hinting 'full'

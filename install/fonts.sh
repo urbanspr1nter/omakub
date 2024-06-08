@@ -26,6 +26,8 @@ unzip master.zip -d iaFonts
 cp iaFonts/iA-Fonts-master/iA\ Writer\ Mono/Static/iAWriterMonoS-*.ttf ~/.local/share/fonts
 rm -rf master.zip iaFonts
 
+cp ~/.local/share/omakub/blob/fonts/sfpro/* ~/.local/share/fonts
+
 fc-cache
 cd -
 
