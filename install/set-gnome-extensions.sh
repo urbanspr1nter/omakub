@@ -62,3 +62,18 @@ gsettings set org.gnome.shell.extensions.space-bar.shortcuts open-menu "@as []"
 # Configure Fonts
 gsettings set org.gnome.desktop.interface font-name 'SF Pro Display 12'
 gsettings set org.gnome.desktop.interface font-hinting 'full'
+
+# Key Remaps for Caps
+gsettings set org.gnome.desktop.input-sources xkb-options "['compose:caps', 'caps:ctrl_modifier']"
+
+# Don't make the computer go to sleep
+gsettings set org.gnome.desktop.session idle-delay 0
+
+# Configure window placement
+gsettings set org.gnome.mutter attach-modal-dialogs false
+gsettings set org.gnome.mutter center-new-windows true
+
+# Colors
+gsettings set org.gnome.desktop.interface color-scheme 'default'
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-blue'
+gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue'

@@ -21,8 +21,8 @@
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
   "explorer.confirmDelete": false,
-  "extensions.ignoreRecommendations": true,
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "One Dark Pro",
   "window.titleBarStyle": "custom",
-  "workbench.editor.wrapTabs": true
+  "workbench.editor.wrapTabs": true,
+  "window.zoomLevel": 0.5
 }
