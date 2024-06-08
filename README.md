@@ -16,7 +16,7 @@ sudo apt-get install -y git > /dev/null
 echo "Cloning OMAKUB..."
 git clone https://github.com/urbanspr1nter/omakub.git ~/.local/share/omakub > /dev/null
 
-source ~/.local/share/omakub/install.s·
+source ~/.local/share/omakub/install.sh
 ```
 
 
