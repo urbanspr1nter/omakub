@@ -1,1 +1,1 @@
-sudo snap install keepassxc
+sudo snap install keepassxc --classic
