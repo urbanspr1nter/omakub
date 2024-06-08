@@ -7,12 +7,5 @@ else
 fi
 COMMENT
 
-if command -v volta &> /dev/null; then
-  eval "$(volta --help)"
-else
-  gum confirm "You're missing volta. Install now?" && \
-    source $OMAKUB_PATH/install/volta.sh
-fi
-
 eval "$(zoxide init bash)"
 source /usr/share/doc/fzf/examples/key-bindings.bash
