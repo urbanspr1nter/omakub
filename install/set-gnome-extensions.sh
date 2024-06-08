@@ -72,8 +72,3 @@ gsettings set org.gnome.desktop.session idle-delay 0
 # Configure window placement
 gsettings set org.gnome.mutter attach-modal-dialogs false
 gsettings set org.gnome.mutter center-new-windows true
-
-# Colors
-gsettings set org.gnome.desktop.interface color-scheme 'default'
-gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-blue'
-gsettings set org.gnome.desktop.interface icon-theme 'Yaru-blue'
