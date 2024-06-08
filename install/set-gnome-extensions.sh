@@ -64,7 +64,7 @@ gsettings set org.gnome.desktop.interface font-name 'SF Pro Display 12'
 gsettings set org.gnome.desktop.interface font-hinting 'full'
 
 # Key Remaps for Caps
-gsettings set org.gnome.desktop.input-sources xkb-options "['compose:caps', 'caps:ctrl_modifier']"
+gsettings set org.gnome.desktop.input-sources xkb-options "['caps:ctrl_modifier']"
 
 # Don't make the computer go to sleep
 gsettings set org.gnome.desktop.session idle-delay 0
