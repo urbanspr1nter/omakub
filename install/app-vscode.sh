@@ -9,3 +9,8 @@ cp ~/.local/share/omakub/configs/vscode.json ~/.config/Code/User/settings.json
 
 # Install default supported themes
 code --install-extension zhuangtongfa.material-theme
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension esbenp.prettier-vscode
+code --install-extension ritwickdey.liveserver
+code --install-extension rangav.vscode-thunder-client
+code --install-extension dbaeumer.vscode-eslint

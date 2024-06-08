@@ -72,3 +72,7 @@ gsettings set org.gnome.desktop.session idle-delay 0
 # Configure window placement
 gsettings set org.gnome.mutter attach-modal-dialogs false
 gsettings set org.gnome.mutter center-new-windows true
+
+# Set the cursor size
+gsettings set gnome.desktop.interface cursor-size 32
+gsettings set com.ubuntu.user-interface.desktop cursor-size 24

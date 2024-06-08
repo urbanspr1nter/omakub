@@ -24,5 +24,8 @@
   "workbench.colorTheme": "One Dark Pro",
   "window.titleBarStyle": "custom",
   "workbench.editor.wrapTabs": true,
-  "window.zoomLevel": 0.5
+  "window.zoomLevel": 0.5,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
 }
