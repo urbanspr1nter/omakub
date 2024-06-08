@@ -4,6 +4,22 @@ Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern 
 
 Watch the introduction video and read more at [omakub.org](https://omakub.org).
 
+## Installation
+
+Run this
+
+```
+echo "Installing git..."
+sudo apt-get update > /dev/null
+sudo apt-get install -y git > /dev/null
+
+echo "Cloning OMAKUB..."
+git clone https://github.com/urbanspr1nter/omakub.git ~/.local/share/omakub > /dev/null
+
+source ~/.local/share/omakub/install.s·
+```
+
+
 ## Contributing to the documentation
 
 Please help us improve Omakub's documentation on the [the basecamp/omakub-site repository](https://github.com/basecamp/omakub-site).
