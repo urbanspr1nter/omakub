@@ -5,4 +5,4 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global pull.rebase true
 git config --global core.autocrlf false
-git config --glboal core.eol lf
+git config --global core.eol lf
