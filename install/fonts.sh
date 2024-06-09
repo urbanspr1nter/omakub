@@ -28,6 +28,10 @@ rm -rf master.zip iaFonts
 
 cp ~/.local/share/omakub/blob/fonts/sfpro/* ~/.local/share/fonts
 
+cp ~/.local/share/omakub/blob/fonts/newyork/* ~/.local/share/fonts
+
+cp ~/.local/share/omakub/blob/fonts/cascadiacode/* ~/.local/share/fonts
+
 fc-cache
 cd -
 
